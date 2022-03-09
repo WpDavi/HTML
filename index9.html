@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #conteiner {
+      background-color: lightslategray;
+      background-image: url(imagens/fundos/target001.png);
+      background-size: 100% 100%;
+      height: 500px;
+      margin: 10px;
+      position: relative;
+    }
+    #conteudo {
+      position: absolute;
+      background-image: url(imagens/fundos/target001.png);
+      background-size: 100% 100%;
+      background-color: yellow;
+      height: 200px;
+      width: 400px;
+      
+      left: 50%;
+      top: 50%;
+      
+
+      transform: translate(-50%, -50%);
+      
+    }
+    body {
+      background-color: black;
+      background-image: url(imagens/fundos/wallpaper002.jpg);
+      height: 98vh; /* tamanho do fundo*/
+      background-repeat: no-repeat; /*se vaii repetir, ou qual lado repetir*/
+      background-position: top center; /* posição de inicio da imagem */
+      background-size: cover; /*como a imagen de fundo vai se comportar*/
+      background-attachment: fixed; /* deixa o fundo fixo*/ 
+      
+      /* Shorthand - backgraund 
+      color > image > position > repeat > attachement */
+      
+      
+    }
+    .quadrado {
+      border: 1px solid black;
+      background-color: lightgrey;
+      width: 300px;
+      height: 300px;   
+      display: inline-block;
+      border-radius: 10px;
+   }
+   div#img1 {
+     background-image: linear-gradient(to right, red, black);     
+   }
+   div#img2 {
+     background-image: linear-gradient(to top, black, red);         
+   }
+   div#img3 {
+     background-image: url('imagens/fundos/pattern001.png');
+   }
+   div#img4 {
+     background-image: url('imagens/fundos/pattern001.png');
+     background-size: 300px 300px; /*dimeções da imagen*/
+   }
+   div#img4 {
+     background-image: url('imagens/fundos/pattern001.png');
+     background-size: 300px 300px; /*dimeções da imagen*/
+   }
+   div#img5 {
+     background-image: url('imagens/fundos/pattern002.png');
+     background-repeat: no-repeat;
+     background-position: right bottom; /* posição de inicio da imagem */
+     
+   }
+ 
+  </style>
+</head>
+<body>
+  <div id="conteiner">
+    <div id="conteudo"></div>
+  </div>
+  <div class="quadrado" id="img1"></div>
+  <div class="quadrado" id="img2"></div>
+  <div class="quadrado" id="img3"></div> 
+  <div class="quadrado" id="img4"></div> 
+  <div class="quadrado" id="img5"></div> 
+  <div class="quadrado" id="img6"></div> 
+</body>
+</html>
