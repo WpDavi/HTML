@@ -52,9 +52,7 @@ section {
   text-shadow: 1px 1px 1px black;
 }
 
-section.normal {
-  
-}
+
 section.img {
   background-color: rgb(117, 117, 117);
   color: white;
