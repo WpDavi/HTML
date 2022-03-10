@@ -11,58 +11,77 @@
   padding: 0px;
   margin: 0px;
 }
+html body {
+  min-height: 100vh;
+}
 
 header {
   background-color: black;
-  color: white;
- 
+  color: white; 
   text-align: center;
-  padding: 60px;
+  
 }
 header h1 {  
- 
+  font-size: 10vw; 
+  padding-top: 50px;
+  font-variant: small-caps; /*todas letras maiúscolas */
   font-family: 'Passion One', cursive;
 }
 header h2 {
   font-family: 'Passion One', cursive;
+  padding-bottom: 50px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold; /*fonte mais grossa */
+}
+header a:hover {
+  text-decoration: line-through;
+  color: red;
+}
+p {  
+  font-family: Sriracha;  
+}
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em; /*distancia entre uma linha e outra*/
+  padding-left: 30px;
+  font-size: 3.5vw;
+  text-shadow: 1px 1px 1px black;
 }
 
-main p {
-  font-family: 'fontsri', cursive;
-}
-.pdentro {
-  color: white;
-}
-#img1 {
-  background-color: black;
-  height: 500px;
-  background-image: url(/HTML/imagens/cordel1.jpg);  
-  background-position: bottom right;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-}
-#img1t {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.692);
-  width: 400px;
-  height: 420px;
-  top: 40px;
-  left: 40px;
+section.normal {
   
 }
-#img2 {
-  background-color: black;
-  height: 500px;
-  background-image: url(/HTML/imagens/codel2.jpg);  
-  background-position: bottom right;
+section.img {
+  background-color: rgb(117, 117, 117);
+  color: white;
+  box-shadow: inset 5px 5px 19px black; 
+}
+section.img p {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.514);
+  padding: 5px;    
+}
+
+#img1 {
+  background-image: url(/HTML/imagens/cordel1.jpg);
+  background-position: right center;
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
 }
+#img2 {
+  background-image: url(/HTML/imagens/codel2.jpg);
+  background-position: right center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 footer {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
 }
