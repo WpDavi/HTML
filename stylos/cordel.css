@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+
+--fontsri: 'Sriracha';
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: black;
+  color: white;
+ 
+  text-align: center;
+  padding: 60px;
+}
+header h1 {  
+ 
+  font-family: 'Passion One', cursive;
+}
+header h2 {
+  font-family: 'Passion One', cursive;
+}
+
+main p {
+  font-family: 'fontsri', cursive;
+}
+.pdentro {
+  color: white;
+}
+#img1 {
+  background-color: black;
+  height: 500px;
+  background-image: url(/HTML/imagens/cordel1.jpg);  
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+#img1t {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.692);
+  width: 400px;
+  height: 420px;
+  top: 40px;
+  left: 40px;
+  
+}
+#img2 {
+  background-color: black;
+  height: 500px;
+  background-image: url(/HTML/imagens/codel2.jpg);  
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
